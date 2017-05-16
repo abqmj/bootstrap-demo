@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cd6b1719-80fd-4ad5-b89f-03f0984f56be" name="bootstrap-demo" url="http://bootcamp-coders.cnm.edu/~mjordan30/public_html/bootstrap-demo">
+        <fileTransfer host="bootcamp-coders.cnm.edu" port="22" privateKey="C:\Users\mikes\Desktop\Bootcamp\ssh-key.openssh" rootFolder="/home/mjordan30/public_html/dog-social" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
