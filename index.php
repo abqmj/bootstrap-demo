@@ -34,7 +34,55 @@
 	</head>
 	<body class="sfooter">
 		<div class="sfooter-content">
-			this is the body text
+
+			<header>
+				<nav class="navbar navbar-default">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">Bootstrap Challenge Demo</a>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="main-menu">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="https://github.com/rlewis2892/bootstrap-challenge-demo" target="_blank">GitHub</a></li>
+								<li><a href="https://bootcamp-coders.cnm.edu/~rlewis37" target="_blank">RL Deployment</a></li>
+								<li><a href="https://angular.io/" target="_blank">Angular.io</a></li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
+			</header>
+
+			<!-- Welcome Section -->
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="jumbotron text-center">
+								<h1>Welcome to the Bootstrap Challenge</h1>
+								<p>La croix chambray organic ugh, plaid raw denim pok pok umami gastropub neutra deep v paleo jianbing semiotics cray.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+
+			</section>
+
+			<section>
+
+			</section>
+
 		</div>
 		<footer>
 			this is the footer
